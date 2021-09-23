@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 500;
   color: #757575;
 }
 
@@ -44,4 +44,30 @@ body {
 }
 
 .auth-nav {
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*  */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0em;
+  color: #212121;
 }
