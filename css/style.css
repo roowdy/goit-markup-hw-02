@@ -1,3 +1,47 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #757575;
+}
+
+/*
+ active -  #2196F3
+
+
+*/
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-part {
+  font-weight: 700;
+  color: #000000;
+}
+
+/* site nav */
+
+.site-nav {
+}
+
+.site-nav .link {
+  color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.auth-nav {
 }
