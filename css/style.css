@@ -12,8 +12,9 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--first-text-color);
+  letter-spacing: 0.03em;
   margin: 0;
 }
 
@@ -25,6 +26,7 @@ body {
   text-decoration: none;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--light--bgc);
   color: var(--second-text-color);
   font-weight: 500;
@@ -65,6 +67,8 @@ body {
 
 .header-link {
   color: var(--black);
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .site-nav .link:hover,
@@ -174,4 +178,8 @@ body {
 .works-item {
   font-size: 16px;
   line-height: 1.88;
+}
+
+.address {
+  font-style: normal;
 }
